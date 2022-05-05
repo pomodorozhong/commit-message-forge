@@ -14,6 +14,8 @@
 		C67C5C1428221CB40053C25E /* CommitMessageForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C1328221CB40053C25E /* CommitMessageForgeTests.swift */; };
 		C67C5C1E28221CB40053C25E /* CommitMessageForgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C1D28221CB40053C25E /* CommitMessageForgeUITests.swift */; };
 		C67C5C2028221CB40053C25E /* CommitMessageForgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C1F28221CB40053C25E /* CommitMessageForgeUITestsLaunchTests.swift */; };
+		C67C5C2D282389710053C25E /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C2C282389710053C25E /* EditorView.swift */; };
+		C67C5C2F28238DC40053C25E /* TypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C2E28238DC40053C25E /* TypePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		C67C5C1928221CB40053C25E /* CommitMessageForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommitMessageForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C67C5C1D28221CB40053C25E /* CommitMessageForgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitMessageForgeUITests.swift; sourceTree = "<group>"; };
 		C67C5C1F28221CB40053C25E /* CommitMessageForgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitMessageForgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C67C5C2C282389710053C25E /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		C67C5C2E28238DC40053C25E /* TypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				C67C5C0128221CB20053C25E /* CommitMessageForgeApp.swift */,
 				C67C5C0328221CB20053C25E /* ContentView.swift */,
+				C67C5C2C282389710053C25E /* EditorView.swift */,
+				C67C5C2E28238DC40053C25E /* TypePickerView.swift */,
 				C67C5C0528221CB40053C25E /* Assets.xcassets */,
 				C67C5C0A28221CB40053C25E /* CommitMessageForge.entitlements */,
 				C67C5C0728221CB40053C25E /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C67C5C2D282389710053C25E /* EditorView.swift in Sources */,
 				C67C5C0428221CB20053C25E /* ContentView.swift in Sources */,
+				C67C5C2F28238DC40053C25E /* TypePickerView.swift in Sources */,
 				C67C5C0228221CB20053C25E /* CommitMessageForgeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
