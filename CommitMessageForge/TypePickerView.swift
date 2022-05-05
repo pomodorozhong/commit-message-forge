@@ -32,12 +32,18 @@ struct TypePickerView: View {
 
   var body: some View {
     VStack {
+      HStack {
+        Text("type")
+        Spacer()
+      }
+
       Picker("", selection: $selection) {
         ForEach(ganeratedTypes, id: \.self) { type in
           Text("\(type)")
         }
       }
       .pickerStyle(.menu)
+      .padding(.leading, -8)
     }
   }
 }
