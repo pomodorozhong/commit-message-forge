@@ -4,8 +4,10 @@ struct EditorView: View {
 
   var body: some View {
     VStack {
-      HStack {
+      HStack(spacing: 10) {
         TypePickerView()
+          .frame(width: 120)
+        ScopeTextFeildView()
       }
     }
   }
