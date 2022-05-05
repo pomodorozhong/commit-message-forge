@@ -3,7 +3,11 @@ import SwiftUI
 struct EditorView: View {
 
   var body: some View {
-    Text("Hello, world!")
+    VStack {
+      HStack {
+        TypePickerView()
+      }
+    }
   }
 }
 
