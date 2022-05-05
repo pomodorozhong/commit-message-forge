@@ -10,6 +10,8 @@ struct EditorView: View {
         ScopeTextFeildView()
       }
       SubjectTextFeildView()
+      BodyTextEditorView()
+      Spacer()
     }
   }
 }

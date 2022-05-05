@@ -18,6 +18,7 @@
 		C67C5C2F28238DC40053C25E /* TypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C2E28238DC40053C25E /* TypePickerView.swift */; };
 		C67C5C312823B4FE0053C25E /* ScopeTextFeildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C302823B4FE0053C25E /* ScopeTextFeildView.swift */; };
 		C67C5C332823BAE50053C25E /* SubjectTextFeildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C322823BAE50053C25E /* SubjectTextFeildView.swift */; };
+		C67C5C352823BC5E0053C25E /* BodyTextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67C5C342823BC5E0053C25E /* BodyTextEditorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C67C5C2E28238DC40053C25E /* TypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypePickerView.swift; sourceTree = "<group>"; };
 		C67C5C302823B4FE0053C25E /* ScopeTextFeildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeTextFeildView.swift; sourceTree = "<group>"; };
 		C67C5C322823BAE50053C25E /* SubjectTextFeildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTextFeildView.swift; sourceTree = "<group>"; };
+		C67C5C342823BC5E0053C25E /* BodyTextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyTextEditorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				C67C5C2C282389710053C25E /* EditorView.swift */,
 				C67C5C2E28238DC40053C25E /* TypePickerView.swift */,
 				C67C5C302823B4FE0053C25E /* ScopeTextFeildView.swift */,
+				C67C5C342823BC5E0053C25E /* BodyTextEditorView.swift */,
 				C67C5C322823BAE50053C25E /* SubjectTextFeildView.swift */,
 				C67C5C0528221CB40053C25E /* Assets.xcassets */,
 				C67C5C0A28221CB40053C25E /* CommitMessageForge.entitlements */,
@@ -275,6 +278,7 @@
 				C67C5C0428221CB20053C25E /* ContentView.swift in Sources */,
 				C67C5C312823B4FE0053C25E /* ScopeTextFeildView.swift in Sources */,
 				C67C5C332823BAE50053C25E /* SubjectTextFeildView.swift in Sources */,
+				C67C5C352823BC5E0053C25E /* BodyTextEditorView.swift in Sources */,
 				C67C5C2F28238DC40053C25E /* TypePickerView.swift in Sources */,
 				C67C5C0228221CB20053C25E /* CommitMessageForgeApp.swift in Sources */,
 			);
