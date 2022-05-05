@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct TypePickerView: View {
-  @State private var selection = "<feat>"
+  @State private var selection = "<type>"
   let types = [
     "feat✨",
     "fix🐛",
@@ -21,7 +21,7 @@ struct TypePickerView: View {
   ]
 
   var ganeratedTypes: [String] {
-    let defaultSelection = "<feat>"
+    let defaultSelection = "<type>"
     var list: [String] = []
     list.append(defaultSelection)
     list.append(contentsOf: types)
