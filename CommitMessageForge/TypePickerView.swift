@@ -51,5 +51,6 @@ struct TypePickerView: View {
 struct TypePickerView_Previews: PreviewProvider {
   static var previews: some View {
     TypePickerView()
+      .previewLayout(.fixed(width: 120, height: 70))
   }
 }
